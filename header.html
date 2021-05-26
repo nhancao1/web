@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="HeaderFooter.css" />
+	<script src="HeaderFooter.js"></script>
+</head>
+
+<body>
+	<!-- copy both header and nav for the header -->
+	<!-- header -->
+	<header id="header">
+		Park Temperature: 24&#8451; | Status: Closed
+		<form style="float:right;">
+			<input list="stuff" name="search">
+			<datalist id="stuff">
+				<option value="season pass">
+				<option value="jedi training academy">
+				<option value="career">
+				<option value="help">
+				<option value="jabba hutt menu">
+			</datalist>
+			<!-- search bar (does not work) -->
+			<input type="submit" value="Search" class="search" formaction='../404/404.html'>
+		</form>
+	</header>
+	<nav id="header">
+		<table>
+			<tr>
+				<td class="logo">
+					<img src="media/logow.png" width=200 id="logo">
+				</td>
+				<td class="dropdown">
+					<a href='attractions.html' class="dropdown-button">Attractions</a>
+					<div class="dropdown-content">
+						<a href="padawan.html">Padawan (under 18)</a>
+						<a href="jedi.html">Jedi (18+)</a>
+						<a href="events.html">Special Events</a>
+						<a href="academy.html">Jedi Training Academy</a>
+					</div>
+				</td>
+				<td class="dropdown">
+					<a href='tickets.html' class="dropdown-button">Tickets</a>
+					<div class="dropdown-content">
+						<a href="dailytickets.html">Daily Tickets</a>
+						<a href="pass.html">Passes</a>
+					</div>
+				</td>
+				<td class="dropdown">
+					<a href='restaurant.html' class="dropdown-button">Jabba Hutt</a>
+					<div class="dropdown-content">
+						<a href="menu.html">Menu</a>
+						<a href="restaurantevents.html">Events</a>
+					</div>
+				</td>
+				<td class="dropdown">
+					<a href='info.html' class="dropdown-button">Information</a>
+					<div class="dropdown-content">
+						<a href="faq.html">FAQ</a>
+						<a href="help.html">Help!</a>
+						<a href="contact.html">Contact Us</a>
+						<a href="jobs.html">Careers</a>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</nav>
+
+
+</body>
+
+</html>
