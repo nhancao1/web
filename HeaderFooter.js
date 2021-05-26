@@ -2,17 +2,17 @@ var c;
 
 $(function () {
 	$("td.logo").on('click', function () {
-		window.location.href = "../homepage/homepage.html";
+		window.location.href = "index.html";
 	});
 
 	$("#header table tr").css("background-color", "black");
 
 	$("td.logo").on('mouseover', function () {
-		document.getElementById('logo').src = '../headerfooter/media/logob.png';
+		document.getElementById('logo').src = 'media/logob.png';
 	});
 
 	$("td.logo").on('mouseleave', function () {
-		document.getElementById('logo').src = '../headerfooter/media/logow.png';
+		document.getElementById('logo').src = 'media/logow.png';
 	});
 
 	$(".esub").submit(function () {
