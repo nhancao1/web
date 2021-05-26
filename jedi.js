@@ -5,7 +5,7 @@ function confirmUser() {
 
     if (verifAge < 18) {
         window.alert("You must be 18 years or older to visit Jedi attractions");
-        window.location.href = "../homepage/homepage.html";
+        window.location.href = "index.html";
     }
 
     else if (verifAge = 18) {
